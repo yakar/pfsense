@@ -16,7 +16,7 @@ else
    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="<?=system_get_language_code();?>" xml:lang="<?=system_get_language_code();?>">
 <head>
-	<title><?php echo($tabtitle); ?></title>
+	<title>Testing.. !! <?php echo($tabtitle); ?></title>
 	<meta http-equiv="Content-Type" content="text/html; charset=<?=system_get_language_codeset();?>" />
 	<link rel="apple-touch-icon" href="/themes/<?php echo $g['theme']; ?>/apple-touch-icon.png"/>
 	<link rel="shortcut icon" href="/themes/<?php echo $g['theme']; ?>/images/icons/favicon.ico"/>
