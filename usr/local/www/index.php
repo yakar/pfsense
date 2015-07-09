@@ -171,7 +171,7 @@ if (file_exists('/conf/needs_package_sync')) {
 ## accessed since initial install show this stuff.
 if (file_exists('/conf/trigger_initial_wizard')) {
 	$lang_code    = system_get_language_code();
-	$lang_codeset = system_get_language_codeset();
+	$lang_codeset = system_get_language_codeset(); 
 	echo <<<EOF
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
